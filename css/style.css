@@ -3,9 +3,9 @@
         background: rgb(39, 35, 42);
         background: linear-gradient(
             90deg,
-            rgb(7, 7, 7) 28%,
+            rgb(7, 7, 7) 48%,
             rgb(232, 139, 8) 70%,
-            rgba(252, 176, 69, 1) 90%
+            rgba(252, 176, 69, 1) 80%
         );
         background-repeat: no-repeat;
         width: 100%;
@@ -34,10 +34,30 @@
     .menu-sm {
         margin: auto;
     }
+    /* Section for sm */
+    .section-sm {
+        margin-top: 100px;
+    }
+    .section-sm h4 {
+        /* color: rgb(0, 0, 255); */
+        font-size: 40px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 600;
+        padding: 24px;
+        /* ChatGPT */
+        background: linear-gradient(
+            45deg,
+            rgba(252, 176, 69, 1) 38%,
+            rgb(232, 139, 8) 46%,
+            rgb(7, 7, 7) 60%
+        );
+        -webkit-background-clip: text; /* Gradientni faqat matnga klip qiladi */
+        -webkit-text-fill-color: transparent; /* Matnni shaffof qiladi */
+    }
     /* section-1 */
     .section_1 {
         background: none;
-        height: 50vh;
+        margin-top: 0;
     }
     .h2-position {
         margin-top: 0;
