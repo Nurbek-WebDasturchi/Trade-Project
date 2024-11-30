@@ -13,7 +13,7 @@
         <link rel="icon" href="/image/tradebonus's logo.jpg" />
         <link
             rel="stylesheet"
-            href="/css/style.css"
+            href="/Boshqa loyihalarim/Self-study/css/style.css"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,8 +41,8 @@
                 border: 2px solid red;
             }
             .card {
-                border-color: rgb(62, 73, 153);
                 background-color: aquamarine;
+                overflow: hidden;
             }
             footer {
                 bottom: 0;
@@ -100,6 +100,8 @@
             div .card {
                 margin-top: 70px;
                 margin-bottom: 70px;
+                border-radius: 20px;
+                border: 2px solid blue;
             }
             .card img {
                 height: 20rem;
@@ -132,9 +134,9 @@
         <nav class="position-fixed d-flex align-items-center w-100">
             <div class="icon-img d-flex">
                 <img
-                    src="/image/tradebonus's logo.jpg"
+                    src="./image/logo-2.jpg"
                     alt="Icon or `Owner's Icon"
-                    class="img-fluid"
+                    class="img-fluid w-100"
                 />
                 <h1>TradeBonus</h1>
             </div>
@@ -270,30 +272,30 @@
                 >Deposit qilish</a
             >
         </section>
-        <section id="section_2" class="section_2">
+        <section id="section_2" class="section_2 p-0">
             <div class="container-fluid">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="row d-flex justify-content-center p-0">
+                    <div
+                        class="col-12 col-md-4 d-flex justify-content-center p-0 mt-0"
+                    >
                         <div class="card" style="width: 25rem">
                             <img
                                 src="data:image/png;base64,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"
-                                class="card-img-top"
+                                class="card-img-top img-fluid"
                                 alt="Bu trade"
                             />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Some quick example text to build on the card
-                                    title and make up the bulk of the card's
-                                    content.
-                                </p>
+                                <h5 class="card-title">Exness</h5>
+                                <p class="card-text">Bez spreed komissiya!</p>
                                 <a href="#" class="btn btn-primary w-100"
                                     ><span>BOSHLASH</span></a
                                 >
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div
+                        class="col-12 col-md-4 d-flex justify-content-center p-0 mt-0"
+                    >
                         <div class="card" style="width: 25rem">
                             <img
                                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsYzEv49Tn71XYhXlr_jjl9f7SYQX-WTIGCA&s"
@@ -301,11 +303,9 @@
                                 alt="Trade imege"
                             />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Libertex</h5>
                                 <p class="card-text">
-                                    Some quick example text to build on the card
-                                    title and make up the bulk of the card's
-                                    content.
+                                    Birinchi depositga 50$ bonus!
                                 </p>
                                 <a href="#" class="btn btn-primary w-100"
                                     ><span>BOSHLASH</span></a
@@ -313,7 +313,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex justify-content-center">
+                    <div
+                        class="col-12 col-md-4 d-flex justify-content-center p-0 mt-0"
+                    >
                         <div class="card" style="width: 25rem">
                             <img
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAACgCAMAAAAfOfHZAAAAM1BMVEUwT/7////L0/9KZf6Xp/6xvf5ke/7l6f/y9P89Wv59kf6ksv6KnP7Y3v++yP9XcP5whv7cYY46AAAE6UlEQVR4nO2Z13akOhBFQRmJ9P9fe5VVwtDQ7fG6s8Znv7hRqjoqhQIPAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDPwkYP/19Mr9qzv9HBCs/UnucwgJ4PjWKhezTgU/FbMKze8PShaftuB+KrCM+jmWgbrmOh/GjAK2xoJ97w9KHp74vvvcplv0Y8DX0O/O8RT90qRb9HfAt9Cfw/IX6bnZRiVqTDifjmVy35pvht9sf7XmvOxPPgmpvVdOz7jCpeUXdleEhqFRs7ee0xNa9SS+i5odXculWHEs0sUcjF4gvNIvcr8bYYkpyILxxdYz8iXhCL7lL8qltUQl+95uqdetyygTbqQsXPsVX4PREzZj8XP5PnHxHfWdwvxSs+ltDzqIXn6q5/nR9Bh2ji05qJ2hfay2xn4jl9fpZPvSk+nl3GWSt8cKdr8YMr0mQsp+KNZozlQ1AdZZBlP8U2cXW4WKedSNb0mfjoo5GzFW4Z38lRn4rfoum8mbfWQfHI1MRPJoU+qPYLt4jfXTmxlK4GYliNUFzZlTfxroYwmk3TkK6OvYh3yXBoXpdJaPXZu8Fr8V0h6XA87VX6K1JPMVTxhLiozVDW63Yc0NYYD/HEyFskusCGr6d9eFw+0vxQ/FYs34tPoedZwIn4NCjPh+B6HDDOTTzshqlNQ643F+LNh3fcI/HRjXrZvBQfnRMyj3YmXuSeoq5pOmBd3nl2amdHVwYRH/vpb70L3xx4+XiTe9/hTHzYyqaMcSl+y39tP6CjKz02YCLDsoGj+HzTMft59G/E11RVlxTlWrxKLflBvJrl6k97nUZS5+JHuhXk+AV7kuGVjlp+Gv67JKeq9/JvxKeq5F4Vv9f+4514w6n1e/H5QvxS/OfEh68yxcR8Iz4Mkc+pIp4miN8Rv5/m9ry2fPYacWS5Fe+jl23Es/WF+NDNduLTrcbmXXnWF+KjGyWhiBGdOWW6eKvjQtel8T6m+B79LPdmL75OsSi+bq2KiuemXItZvKMO04zgKJ7H4ysnqfR3w56WlsX1SXLfEo6pxvZEfI7GWqpINknFD6IsiSy+3NFdy1Px6U+6ADfqSuUk4SIV5qTiQnJdtmna4k/dr9+DeF6mtwvmUXzfPInXx5bn4mNmn7e9OQsyv9Soq4YnyJK3zGTJRFU5aWhvdWWaaloWV192kt+Jj9u8hPC1+BTAtO1TSOoNprY2JWnap4m4dj0rZ6QoSinzZ4fkSL6mmRO5ImV4TFilrDNlVaakb5RCSKPvxKeX/eyley0+lcd4T7r6ItxqsuJ0Lfjkx7EwzDIuzp+kVpgWwAccrpKyj1xfXF9sKinetPd0Iz6/cy+rlIspg16JJ9t+MyNF0uiMqdXUO/v4tGddt6Usy/4LQvPzYICTtGW/Ed99bbkVn977+NFIPTbItMtDXN7Iclre4l+ryanaaV1CGk4iwIpCvtbOt+IH1X+TWfgL8XTbc0lMl7xXkBKaOpr5aP8lyrFF60XO/YUy7Y4xfxoIu+UKJXxi7otmqm8LhauLH01tqN6GAzyUJpf47OIIfoMmibs/bWQbLtZmayL83qkvTIq9+citL1uz19ss08B/9h94AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+Gv4D4IRI+shFnlNAAAAAElFTkSuQmCC"
@@ -321,11 +323,9 @@
                                 alt="Bu trade image"
                             />
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">JustMarkets</h5>
                                 <p class="card-text">
-                                    Some quick example text to build on the card
-                                    title and make up the bulk of the card's
-                                    content.
+                                    1lot hajmdagi savdoga 100$ bonus!
                                 </p>
                                 <a href="#" class="btn btn-primary w-100"
                                     ><span>BOSHLASH</span></a
